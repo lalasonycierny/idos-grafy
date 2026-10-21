@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voľné miesta vo vlakoch - história</title>
+<style>
+:root{--bg:#f6f8fa;--fg:#1f2328;--muted:#656d76;--card:#ffffff;--line:#d0d7de;--accent:#0969da}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0d1117;--fg:#e6edf3;--muted:#8b949e;--card:#161b22;--line:#30363d;--accent:#58a6ff}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+     font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{margin:0 0 4px;font-size:1.6rem}
+h2{margin:0 0 12px;font-size:1.2rem}
+.muted{color:var(--muted);font-size:.9rem}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;
+      padding:16px;margin-top:20px}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--muted);font-weight:600;font-size:.85rem}
+img{display:block;width:100%;height:auto;background:#fff;border-radius:6px;
+    border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<main>
+<h1>Voľné miesta vo vlakoch</h1>
+<p class="muted">Posledné meranie: 21.10.2026 12:32 ·
+<a href="data/obsadenost_data.csv">stiahnuť dáta (CSV)</a></p>
+
+<section class="card">
+<h2>Súhrn po dňoch</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Deň</th><th>Meraní</th><th>Vlakov</th><th>Čas meraní</th></tr></thead>
+<tbody>
+<tr><td><a href="#d2026-10-21">streda 21.10.2026</a></td><td>57</td><td>9</td><td>00:10-12:32</td></tr>
+<tr><td><a href="#d2026-10-20">utorok 20.10.2026</a></td><td>34</td><td>7</td><td>13:55-23:50</td></tr>
+</tbody></table></div>
+</section>
+
+<section class="card" id="d2026-10-21"><h2>streda 21.10.2026</h2><a href="grafy/graf_vozne_2026-10-21.png"><img src="grafy/graf_vozne_2026-10-21.png" loading="lazy" alt="Voľné miesta po vozňoch - streda 21.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-21.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="d2026-10-20"><h2>utorok 20.10.2026</h2><a href="grafy/graf_vozne_2026-10-20.png"><img src="grafy/graf_vozne_2026-10-20.png" loading="lazy" alt="Voľné miesta po vozňoch - utorok 20.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-20.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+</main>
+</body>
+</html>
