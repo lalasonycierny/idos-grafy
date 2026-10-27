@@ -75,7 +75,7 @@ html_content = f"""
 """
 
 # Uloženie ako index.html (tento súbor GitHub Pages zobrazí ako hlavnú stránku)
-with open("index.html", "w", encoding="utf-8") as f:
+with open("indexx.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
 print("Graf úspešne vygenerovaný do index.html")
