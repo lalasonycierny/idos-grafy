@@ -3,7 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 
-# 1. Načítanie dát
+# 1. Načítanie dát priamo z vašej URL adresy repozitára
 url = "https://github.io"
 try:
     df = pd.read_csv(url)
@@ -11,11 +11,11 @@ except Exception as e:
     print(f"Nepodarilo sa načítať dáta z URL, skúšam lokálny súbor. Chyba: {e}")
     df = pd.read_csv("data/obsadenost_data.csv")
 
-# Úprava dátových typov
+# 2. Úprava dátových typov
 df['cas'] = pd.to_datetime(df['cas'])
-df['den'] = pd.to_datetime(df['den'])
+df['den'] = pd.to_datetime(df['den']).dt.date
 
-# --- GRAF 1: Vývoj voľných miest ---
+# --- GRAF 1: Časový vývoj voľných miest ---
 df_vlak = df.groupby(['cas', 'vlak', 'vlak_popis'])['volne'].sum().reset_index()
 fig1 = px.line(
     df_vlak, 
@@ -29,11 +29,9 @@ fig1 = px.line(
 fig1.update_layout(template="plotly_dark", xaxis_title="Dátum a čas", yaxis_title="Voľné miesta")
 
 # --- GRAF 2: Plnenie vozňov (Heatmap) ---
-# Získame posledné meranie pre každý vlak a vozeň v konkrétny deň
 idx_last = df.groupby(['den', 'vlak', 'vozen'])['cas'].idxmax()
 df_last = df.loc[idx_last].copy()
 
-# Odhadneme kapacitu ako maximum voľných miest (zjednodušený model pre účely percent)
 kapacity = df.groupby(['vlak', 'vozen'])['volne'].max().reset_index().rename(columns={'volne': 'kapacita'})
 df_last = df_last.merge(kapacity, on=['vlak', 'vozen'], how='left')
 df_last['obsadenost_pct'] = ((df_last['kapacita'] - df_last['volne']) / df_last['kapacita'] * 100).clip(lower=0).round(0)
@@ -55,7 +53,6 @@ df['hodina'] = df['cas'].dt.hour
 df_sorted = df.sort_values(['vlak', 'vozen', 'cas'])
 df_sorted['zmena'] = df_sorted.groupby(['vlak', 'vozen'])['volne'].diff()
 
-# Ak volne kleslo (zmena < 0), miesta sa obsadili. Ak stúplo (zmena > 0), miesta se uvoľnili (storno).
 df_predaj = df_sorted.dropna(subset=['zmena']).copy()
 df_predaj['obsadene'] = df_predaj['zmena'].apply(lambda x: abs(x) if x < 0 else 0)
 df_predaj['uvolnene'] = df_predaj['zmena'].apply(lambda x: x if x > 0 else 0)
@@ -130,12 +127,12 @@ html_content = f"""
 
     <h2>2. Plnenie jednotlivých vozňov</h2>
     <div class="container">
-        {pio.to_html(fig2, full_html=False, include_plotlyjs='falses')}
+        {pio.to_html(fig2, full_html=False, include_plotlyjs='false')}
     </div>
 
     <h2>3. Dynamika nákupov a storna počas dňa</h2>
     <div class="container">
-        {pio.to_html(fig3, full_html=False, include_plotlyjs='falses')}
+        {pio.to_html(fig3, full_html=False, include_plotlyjs='false')}
     </div>
 
     <h2>4. Posledné zaznamenané uvoľnenia miest (Storná)</h2>
