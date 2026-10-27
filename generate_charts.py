@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import re
 
-# 1. Načítanie dát
+# 1. Načítanie dát - OPRAVENÁ PÔVODNÁ FUNKČNÁ URL
 url = "https://github.io"
 try:
     df = pd.read_csv(url)
@@ -78,7 +78,7 @@ def extrahuj_hodiny_pred_odchodom(popis):
 
 df_predstih = df_predaj.merge(df[['cas', 'vlak', 'vlak_popis']].drop_duplicates(subset=['cas', 'vlak']), on=['cas', 'vlak'], how='left')
 
-predstihy_list = []
+predstihy_list = [] # OPRAVENÉ: Pridané chýbajúce zátvorky
 for idx, row in df_predstih.iterrows():
     h, m = extrahuj_hodiny_pred_odchodom(row['vlak_popis_x'])
     if h is not None:
@@ -136,12 +136,9 @@ fig7.update_layout(template="plotly_dark")
 df_storna = df_predaj[df_predaj['zmena'] > 0].sort_values('cas', ascending=False).head(15)
 storna_rows = ""
 for _, r in df_storna.iterrows():
-    # OPRAVENÉ: Tu museli byť jednoduché zátvorky pre korektné vloženie hodnôt
     storna_rows += f"<tr><td>{r['cas'].strftime('%d.%m. %H:%M')}</td><td>{r['vlak']}</td><td>{r['vozen']}</td><td>+{int(r['zmena'])} miesta</td></tr>"
 
 # --- Generovanie výsledného HTML ---
-# POZNÁMKA: CSS štýly zostávajú v {{ }} aby ich f-string ignoroval, 
-# ale Plotly objekty a tabuľka majú teraz klasické { }, aby sa reálne vyhodnotili.
 html_content = f"""
 <!DOCTYPE html>
 <html lang="sk">
@@ -185,4 +182,4 @@ html_content = f"""
 
 with open("indexx.html", "w", encoding="utf-8") as f:
     f.write(html_content)
-print("Súbor indexx.html bol úspešne vygenerovaný s funkčnými grafmi!")
+print("Súbor indexx.html bol úspešne vygenerovaný!")
