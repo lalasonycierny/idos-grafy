@@ -12,11 +12,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Povolenie pre zápis vygenerovaného index.html späť do repozitára
+      contents: write # Povolenie pre zápis vygenerovaného súboru späť do repozitára
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Pull remote changes
+      run: |
+        git fetch origin main
+        git reset --hard origin/main
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -34,6 +39,6 @@ jobs:
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.name "github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add indexx.html
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatická aktualizácia grafov [skip ci]" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatická aktualizácia grafov (indexx.html) [skip ci]" && git push)
