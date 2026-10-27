@@ -6,7 +6,7 @@ import plotly.io as pio
 import re
 
 # 1. Načítanie dát
-url = "https://lalasonycierny.github.io/idos-grafy/data/obsadenost_data.csv"
+url = "https://github.io"
 try:
     df = pd.read_csv(url)
 except Exception as e:
@@ -71,7 +71,7 @@ fig4.update_layout(template="plotly_dark")
 
 # NÁVRH 2: Časový predstih nákupu
 def extrahuj_hodiny_pred_odchodom(popis):
-    match = re.search(r'(\d{{2}}):(\d{{2}})', str(popis))
+    match = re.search(r'(\d{2}):(\d{2})', str(popis))
     if match:
         return int(match.group(1)), int(match.group(2))
     return None, None
@@ -136,9 +136,12 @@ fig7.update_layout(template="plotly_dark")
 df_storna = df_predaj[df_predaj['zmena'] > 0].sort_values('cas', ascending=False).head(15)
 storna_rows = ""
 for _, r in df_storna.iterrows():
-    storna_rows += f"<tr><td>{{r['cas'].strftime('%d.%m. %H:%M')}}</td><td>{{r['vlak']}}</td><td>{{r['vozen']}}</td><td>+{{int(r['zmena'])}} miesta</td></tr>"
+    # OPRAVENÉ: Tu museli byť jednoduché zátvorky pre korektné vloženie hodnôt
+    storna_rows += f"<tr><td>{r['cas'].strftime('%d.%m. %H:%M')}</td><td>{r['vlak']}</td><td>{r['vozen']}</td><td>+{int(r['zmena'])} miesta</td></tr>"
 
 # --- Generovanie výsledného HTML ---
+# POZNÁMKA: CSS štýly zostávajú v {{ }} aby ich f-string ignoroval, 
+# ale Plotly objekty a tabuľka majú teraz klasické { }, aby sa reálne vyhodnotili.
 html_content = f"""
 <!DOCTYPE html>
 <html lang="sk">
@@ -158,23 +161,23 @@ html_content = f"""
 </head>
 <body>
     <h1>Súhrnné štatistiky obsadenosti vlakov</h1>
-    <div class="container">{{pio.to_html(fig1, full_html=False, include_plotlyjs='cdn')}}</div>
+    <div class="container">{pio.to_html(fig1, full_html=False, include_plotlyjs='cdn')}</div>
     <h2>2. Plnenie jednotlivých vozňov</h2>
-    <div class="container">{{pio.to_html(fig2, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig2, full_html=False, include_plotlyjs=False)}</div>
     <h2>3. Dynamika nákupov a storna počas dňa</h2>
-    <div class="container">{{pio.to_html(fig3, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig3, full_html=False, include_plotlyjs=False)}</div>
     <h2>4. Vyťaženosť v dňoch týždňa (Návrh 1)</h2>
-    <div class="container">{{pio.to_html(fig4, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig4, full_html=False, include_plotlyjs=False)}</div>
     <h2>5. Kedy ľudia kupujú lístky pred odchodom (Návrh 2)</h2>
-    <div class="container">{{pio.to_html(fig5, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig5, full_html=False, include_plotlyjs=False)}</div>
     <h2>6. Vyťaženosť spojov podľa kategórie dňa (Návrh 3)</h2>
-    <div class="container">{{pio.to_html(fig6, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig6, full_html=False, include_plotlyjs=False)}</div>
     <h2>7. Index fluktuácie a storna lístkov (Návrh 4)</h2>
-    <div class="container">{{pio.to_html(fig7, full_html=False, include_plotlyjs='falses')}}</div>
+    <div class="container">{pio.to_html(fig7, full_html=False, include_plotlyjs=False)}</div>
     <h2>8. Posledné zaznamenané uvoľnenia miest (Storná)</h2>
     <table>
         <thead><tr><th>Čas detekcie</th><th>Vlak</th><th>Vozeň</th><th>Počet vrátených miest</th></tr></thead>
-        <tbody>{{storna_rows if storna_rows else '<tr><td colspan="4">Žiadne nedávne storná.</td></tr>'}}</tbody>
+        <tbody>{storna_rows if storna_rows else '<tr><td colspan="4">Žiadne nedávne storná.</td></tr>'}</tbody>
     </table>
 </body>
 </html>
@@ -182,3 +185,4 @@ html_content = f"""
 
 with open("indexx.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+print("Súbor indexx.html bol úspešne vygenerovaný s funkčnými grafmi!")
