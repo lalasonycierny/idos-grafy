@@ -30,34 +30,36 @@ img{display:block;width:100%;height:auto;background:#fff;border-radius:6px;
 h2.oddiel{margin:36px 0 0;font-size:1.4rem}
 .card p.muted{margin:0 0 12px}
 .card .tablewrap{margin-top:12px}
+details.trasa{margin-top:16px}
+details.trasa>summary{cursor:pointer;font-weight:600;font-size:1.1rem;padding:8px 0}
 </style>
 </head>
 <body>
 <main>
 <h1>Voľné miesta vo vlakoch</h1>
-<p class="muted">Posledné meranie: 28.10.2026 07:13 ·
+<p class="muted">Posledné meranie: 28.10.2026 07:42 ·
 <a href="data/obsadenost_data.csv">stiahnuť dáta (CSV)</a></p>
 <nav class="nav"><a href="#suhrn">Súhrn</a><a href="#statistiky">Štatistiky</a><a href="#historia">História grafov</a></nav>
 
 <section class="card" id="suhrn">
 <h2>Súhrn po dňoch</h2>
 <div class="tablewrap"><table>
-<thead><tr><th>Deň</th><th>Meraní</th><th>Vlakov</th><th>Čas meraní</th></tr></thead>
+<thead><tr><th>Deň</th><th>Trasa</th><th>Meraní</th><th>Vlakov</th><th>Čas meraní</th></tr></thead>
 <tbody>
-<tr><td><a href="#d2026-10-28">streda 28.10.2026</a></td><td>73</td><td>3</td><td>00:03-07:13</td></tr>
-<tr><td><a href="#d2026-10-27">utorok 27.10.2026</a></td><td>99</td><td>11</td><td>00:01-23:59</td></tr>
-<tr><td><a href="#d2026-10-26">pondelok 26.10.2026</a></td><td>88</td><td>14</td><td>00:06-23:50</td></tr>
-<tr><td><a href="#d2026-10-25">nedeľa 25.10.2026</a></td><td>101</td><td>15</td><td>00:01-23:56</td></tr>
-<tr><td><a href="#d2026-10-24">sobota 24.10.2026</a></td><td>98</td><td>14</td><td>00:10-23:50</td></tr>
-<tr><td><a href="#d2026-10-23">piatok 23.10.2026</a></td><td>64</td><td>13</td><td>07:25-23:49</td></tr>
-<tr><td><a href="#d2026-10-22">štvrtok 22.10.2026</a></td><td>80</td><td>11</td><td>00:08-16:10</td></tr>
-<tr><td><a href="#d2026-10-21">streda 21.10.2026</a></td><td>96</td><td>15</td><td>00:10-23:58</td></tr>
-<tr><td><a href="#d2026-10-20">utorok 20.10.2026</a></td><td>34</td><td>7</td><td>13:55-23:50</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-28">streda 28.10.2026</a></td><td>Bratislava → Vrútky</td><td>78</td><td>4</td><td>00:03-07:42</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-27">utorok 27.10.2026</a></td><td>Bratislava → Vrútky</td><td>99</td><td>11</td><td>00:01-23:59</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-26">pondelok 26.10.2026</a></td><td>Bratislava → Vrútky</td><td>88</td><td>14</td><td>00:06-23:50</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-25">nedeľa 25.10.2026</a></td><td>Bratislava → Vrútky</td><td>101</td><td>15</td><td>00:01-23:56</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-24">sobota 24.10.2026</a></td><td>Bratislava → Vrútky</td><td>98</td><td>14</td><td>00:10-23:50</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-23">piatok 23.10.2026</a></td><td>Bratislava → Vrútky</td><td>64</td><td>13</td><td>07:25-23:49</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-22">štvrtok 22.10.2026</a></td><td>Bratislava → Vrútky</td><td>80</td><td>11</td><td>00:08-16:10</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-21">streda 21.10.2026</a></td><td>Bratislava → Vrútky</td><td>96</td><td>15</td><td>00:10-23:58</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-20">utorok 20.10.2026</a></td><td>Bratislava → Vrútky</td><td>34</td><td>7</td><td>13:55-23:50</td></tr>
 </tbody></table></div>
 </section>
 
 <h2 class="oddiel" id="statistiky">Štatistiky</h2>
-<section class="card" id="s-typicky-priebeh"><h2>Typický priebeh obsadenosti pred odchodom</h2><p class="muted">Sivé čiary sú jednotlivé vlaky, červená čiara je medián. Ukazuje, koľko hodín pred odchodom sa vlaky bežne plnia. Obsadenosť sa počíta z odhadnutej kapacity a čas odchodu je odhad z časov meraní.</p><a href="statistiky/typicky_priebeh.png"><img src="statistiky/typicky_priebeh.png" loading="lazy" alt="Typický priebeh obsadenosti pred odchodom"></a><div class="tablewrap"><table class="dataframe stat">
+<details class="trasa" open><summary>Bratislava → Vrútky</summary><section class="card" id="s-ba-vr-typicky-priebeh"><h2>Typický priebeh obsadenosti pred odchodom</h2><p class="muted">Sivé čiary sú jednotlivé vlaky, červená čiara je medián. Ukazuje, koľko hodín pred odchodom sa vlaky bežne plnia. Obsadenosť sa počíta z odhadnutej kapacity a čas odchodu je odhad z časov meraní.</p><a href="statistiky/ba-vr/typicky_priebeh.png"><img src="statistiky/ba-vr/typicky_priebeh.png" loading="lazy" alt="Typický priebeh obsadenosti pred odchodom"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Pred odchodom</th>
@@ -69,16 +71,16 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>1 h</td>
       <td>31 %</td>
-      <td>82</td>
+      <td>94</td>
     </tr>
     <tr>
       <td>0.5 h</td>
-      <td>36 %</td>
-      <td>78</td>
+      <td>35 %</td>
+      <td>90</td>
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-plnenie-vozov"><h2>Plnenie vozňov</h2><p class="muted">Priemerná obsadenosť každého vozňa pri poslednom meraní pred odchodom. Tmavšia farba znamená plnší vozeň. Posledný riadok je priemer cez všetky vlaky.</p><a href="statistiky/plnenie_vozov.png"><img src="statistiky/plnenie_vozov.png" loading="lazy" alt="Plnenie vozňov"></a><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-plnenie-vozov"><h2>Plnenie vozňov</h2><p class="muted">Priemerná obsadenosť každého vozňa pri poslednom meraní pred odchodom. Tmavšia farba znamená plnší vozeň. Posledný riadok je priemer cez všetky vlaky.</p><a href="statistiky/ba-vr/plnenie_vozov.png"><img src="statistiky/ba-vr/plnenie_vozov.png" loading="lazy" alt="Plnenie vozňov"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>vozen</th>
@@ -97,49 +99,49 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <th></th>
       <td>Ex 603</td>
-      <td>30</td>
-      <td>30</td>
-      <td>11</td>
-      <td>18</td>
+      <td>37</td>
+      <td>32</td>
+      <td>9</td>
+      <td>17</td>
       <td>8</td>
-      <td>13</td>
-      <td>2</td>
+      <td>12</td>
+      <td>4</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 607</td>
-      <td>47</td>
-      <td>57</td>
-      <td>26</td>
-      <td>34</td>
+      <td>52</td>
+      <td>56</td>
+      <td>31</td>
       <td>32</td>
       <td>28</td>
+      <td>27</td>
       <td>11</td>
       <td>0</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 609</td>
-      <td>64</td>
-      <td>58</td>
-      <td>38</td>
-      <td>28</td>
-      <td>22</td>
-      <td>33</td>
-      <td>16</td>
+      <td>65</td>
+      <td>59</td>
+      <td>42</td>
+      <td>29</td>
+      <td>24</td>
+      <td>31</td>
+      <td>14</td>
       <td>9</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 611</td>
-      <td>68</td>
       <td>70</td>
-      <td>40</td>
-      <td>42</td>
-      <td>39</td>
-      <td>54</td>
-      <td>26</td>
+      <td>69</td>
+      <td>45</td>
+      <td>44</td>
+      <td>38</td>
+      <td>52</td>
+      <td>25</td>
       <td>0</td>
     </tr>
     <tr>
@@ -169,126 +171,126 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <th></th>
       <td>Ex 617</td>
-      <td>69</td>
-      <td>67</td>
-      <td>59</td>
-      <td>38</td>
-      <td>39</td>
-      <td>55</td>
-      <td>40</td>
+      <td>73</td>
+      <td>68</td>
+      <td>57</td>
+      <td>36</td>
+      <td>34</td>
+      <td>50</td>
+      <td>37</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 619</td>
+      <td>76</td>
       <td>70</td>
-      <td>71</td>
-      <td>66</td>
-      <td>40</td>
-      <td>44</td>
-      <td>48</td>
+      <td>62</td>
+      <td>38</td>
+      <td>38</td>
+      <td>46</td>
       <td>39</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 621</td>
-      <td>76</td>
-      <td>68</td>
-      <td>65</td>
-      <td>52</td>
-      <td>49</td>
-      <td>54</td>
-      <td>49</td>
+      <td>75</td>
+      <td>70</td>
+      <td>64</td>
+      <td>53</td>
+      <td>45</td>
+      <td>51</td>
+      <td>46</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 623</td>
-      <td>79</td>
-      <td>76</td>
-      <td>68</td>
-      <td>58</td>
-      <td>51</td>
-      <td>58</td>
-      <td>44</td>
+      <td>78</td>
+      <td>75</td>
+      <td>64</td>
+      <td>53</td>
+      <td>46</td>
+      <td>55</td>
+      <td>38</td>
       <td>88</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 627</td>
-      <td>62</td>
-      <td>65</td>
-      <td>59</td>
-      <td>62</td>
-      <td>67</td>
-      <td>74</td>
-      <td>64</td>
+      <td>66</td>
+      <td>68</td>
+      <td>63</td>
+      <td>68</td>
+      <td>71</td>
+      <td>76</td>
+      <td>68</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 629</td>
-      <td>77</td>
-      <td>73</td>
-      <td>56</td>
+      <td>79</td>
+      <td>74</td>
+      <td>59</td>
       <td>51</td>
-      <td>30</td>
-      <td>49</td>
+      <td>33</td>
+      <td>50</td>
       <td>38</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 631</td>
-      <td>60</td>
-      <td>60</td>
-      <td>46</td>
-      <td>38</td>
-      <td>29</td>
-      <td>33</td>
-      <td>25</td>
+      <td>63</td>
+      <td>61</td>
+      <td>44</td>
+      <td>39</td>
+      <td>32</td>
+      <td>32</td>
+      <td>23</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 651</td>
       <td>29</td>
-      <td>29</td>
-      <td>19</td>
-      <td>3</td>
-      <td>2</td>
-      <td>3</td>
+      <td>27</td>
+      <td>17</td>
       <td>4</td>
+      <td>5</td>
+      <td>3</td>
+      <td>3</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Ex 653</td>
-      <td>20</td>
-      <td>20</td>
-      <td>12</td>
-      <td>5</td>
-      <td>1</td>
-      <td>1</td>
+      <td>18</td>
+      <td>19</td>
       <td>11</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9</td>
       <td>&lt;NA&gt;</td>
     </tr>
     <tr>
       <th></th>
       <td>Všetky vlaky</td>
-      <td>59</td>
+      <td>61</td>
       <td>59</td>
       <td>46</td>
       <td>37</td>
       <td>33</td>
-      <td>41</td>
-      <td>30</td>
+      <td>39</td>
+      <td>29</td>
       <td>19</td>
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-miesta"><h2>Ktoré miesta sa obsadzujú prvé</h2><p class="muted">Skorosť obsadenia: 100 % znamená, že miesto bolo obsadené už pri prvom meraní, 0 % že sa neobsadilo vôbec. Priemer cez všetky vlaky a dni pre dané číslo miesta vo vozni. Pri málo dňoch dát je výsledok orientačný.</p><a href="statistiky/miesta.png"><img src="statistiky/miesta.png" loading="lazy" alt="Ktoré miesta sa obsadzujú prvé"></a><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-miesta"><h2>Ktoré miesta sa obsadzujú prvé</h2><p class="muted">Skorosť obsadenia: 100 % znamená, že miesto bolo obsadené už pri prvom meraní, 0 % že sa neobsadilo vôbec. Priemer cez všetky vlaky a dni pre dané číslo miesta vo vozni. Pri málo dňoch dát je výsledok orientačný.</p><a href="statistiky/ba-vr/miesta.png"><img src="statistiky/ba-vr/miesta.png" loading="lazy" alt="Ktoré miesta sa obsadzujú prvé"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Kategória</th>
@@ -303,78 +305,78 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
       <td>najskôr obsadzované</td>
       <td>Vůz 4</td>
       <td>61</td>
-      <td>87</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>najskôr obsadzované</td>
-      <td>Vůz 4</td>
-      <td>66</td>
-      <td>84</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>najskôr obsadzované</td>
-      <td>Vůz 3</td>
-      <td>82</td>
-      <td>83</td>
-      <td>35</td>
+      <td>93</td>
+      <td>20</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
       <td>Vůz 4</td>
       <td>62</td>
-      <td>82</td>
-      <td>17</td>
+      <td>83</td>
+      <td>20</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
       <td>Vůz 4</td>
-      <td>76</td>
-      <td>79</td>
-      <td>30</td>
+      <td>66</td>
+      <td>83</td>
+      <td>15</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
-      <td>Vůz 5</td>
-      <td>45</td>
-      <td>79</td>
-      <td>43</td>
+      <td>Vůz 3</td>
+      <td>82</td>
+      <td>81</td>
+      <td>42</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
       <td>Vůz 3</td>
       <td>92</td>
+      <td>78</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>najskôr obsadzované</td>
+      <td>Vůz 3</td>
+      <td>96</td>
       <td>77</td>
-      <td>36</td>
+      <td>29</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
       <td>Vůz 4</td>
-      <td>72</td>
       <td>76</td>
-      <td>27</td>
+      <td>76</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>najskôr obsadzované</td>
+      <td>Vůz 4</td>
+      <td>96</td>
+      <td>76</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>najskôr obsadzované</td>
+      <td>Vůz 4</td>
+      <td>36</td>
+      <td>76</td>
+      <td>44</td>
     </tr>
     <tr>
       <td>najskôr obsadzované</td>
       <td>Vůz 4</td>
       <td>71</td>
       <td>76</td>
-      <td>32</td>
-    </tr>
-    <tr>
-      <td>najskôr obsadzované</td>
-      <td>Vůz 4</td>
-      <td>92</td>
-      <td>75</td>
-      <td>29</td>
+      <td>39</td>
     </tr>
     <tr>
       <td>najneskôr obsadzované</td>
       <td>Vůz 7</td>
       <td>14</td>
       <td>0</td>
-      <td>81</td>
+      <td>95</td>
     </tr>
     <tr>
       <td>najneskôr obsadzované</td>
@@ -441,7 +443,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-predaj"><h2>Predaj miest podľa hodiny dňa</h2><p class="muted">Priemerný počet miest, ktoré sa za hodinu obsadili alebo uvoľnili vo všetkých vozňoch vlaku, podľa porovnania dvoch po sebe idúcich meraní. Hodiny s menej než pol hodinou sledovania sa nezobrazujú.</p><a href="statistiky/predaj_podla_hodiny.png"><img src="statistiky/predaj_podla_hodiny.png" loading="lazy" alt="Predaj miest podľa hodiny dňa"></a><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-predaj"><h2>Predaj miest podľa hodiny dňa</h2><p class="muted">Priemerný počet miest, ktoré sa za hodinu obsadili alebo uvoľnili vo všetkých vozňoch vlaku, podľa porovnania dvoch po sebe idúcich meraní. Hodiny s menej než pol hodinou sledovania sa nezobrazujú.</p><a href="statistiky/ba-vr/predaj_podla_hodiny.png"><img src="statistiky/ba-vr/predaj_podla_hodiny.png" loading="lazy" alt="Predaj miest podľa hodiny dňa"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Hodina</th>
@@ -453,51 +455,51 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
   <tbody>
     <tr>
       <td>00:00</td>
-      <td>2.0</td>
-      <td>0.7</td>
-      <td>4.6</td>
+      <td>2.3</td>
+      <td>0.5</td>
+      <td>5.6</td>
     </tr>
     <tr>
       <td>01:00</td>
-      <td>1.9</td>
-      <td>0.8</td>
-      <td>4.8</td>
+      <td>1.6</td>
+      <td>0.7</td>
+      <td>5.7</td>
     </tr>
     <tr>
       <td>02:00</td>
-      <td>2.9</td>
-      <td>1.0</td>
-      <td>4.9</td>
+      <td>2.4</td>
+      <td>0.8</td>
+      <td>5.9</td>
     </tr>
     <tr>
       <td>03:00</td>
-      <td>8.0</td>
-      <td>1.8</td>
-      <td>5.1</td>
+      <td>7.3</td>
+      <td>1.5</td>
+      <td>6.2</td>
     </tr>
     <tr>
       <td>04:00</td>
-      <td>13.6</td>
+      <td>11.9</td>
       <td>0.0</td>
-      <td>0.9</td>
+      <td>1.1</td>
     </tr>
     <tr>
       <td>05:00</td>
-      <td>24.4</td>
-      <td>2.2</td>
-      <td>2.3</td>
+      <td>21.9</td>
+      <td>2.4</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <td>06:00</td>
-      <td>20.9</td>
+      <td>20.5</td>
       <td>2.3</td>
-      <td>3.5</td>
+      <td>4.3</td>
     </tr>
     <tr>
       <td>07:00</td>
-      <td>32.5</td>
+      <td>30.6</td>
       <td>1.9</td>
-      <td>4.7</td>
+      <td>5.3</td>
     </tr>
     <tr>
       <td>08:00</td>
@@ -513,79 +515,79 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
     <tr>
       <td>10:00</td>
-      <td>44.6</td>
-      <td>4.6</td>
-      <td>5.0</td>
+      <td>45.9</td>
+      <td>5.3</td>
+      <td>5.7</td>
     </tr>
     <tr>
       <td>11:00</td>
-      <td>55.0</td>
-      <td>3.1</td>
-      <td>3.9</td>
+      <td>56.8</td>
+      <td>3.6</td>
+      <td>4.7</td>
     </tr>
     <tr>
       <td>12:00</td>
-      <td>47.9</td>
-      <td>4.7</td>
-      <td>4.3</td>
+      <td>50.4</td>
+      <td>4.2</td>
+      <td>5.0</td>
     </tr>
     <tr>
       <td>13:00</td>
-      <td>45.2</td>
-      <td>4.7</td>
-      <td>5.3</td>
+      <td>46.9</td>
+      <td>4.5</td>
+      <td>6.2</td>
     </tr>
     <tr>
       <td>14:00</td>
-      <td>46.5</td>
-      <td>0.9</td>
-      <td>1.1</td>
+      <td>45.2</td>
+      <td>2.3</td>
+      <td>1.3</td>
     </tr>
     <tr>
       <td>15:00</td>
-      <td>71.4</td>
-      <td>5.9</td>
-      <td>4.2</td>
+      <td>72.0</td>
+      <td>5.8</td>
+      <td>4.8</td>
     </tr>
     <tr>
       <td>16:00</td>
-      <td>69.9</td>
-      <td>3.1</td>
-      <td>4.2</td>
+      <td>76.1</td>
+      <td>3.5</td>
+      <td>5.2</td>
     </tr>
     <tr>
       <td>17:00</td>
-      <td>57.2</td>
-      <td>2.9</td>
-      <td>5.1</td>
+      <td>58.5</td>
+      <td>5.6</td>
+      <td>5.9</td>
     </tr>
     <tr>
       <td>18:00</td>
-      <td>36.3</td>
-      <td>3.9</td>
-      <td>4.8</td>
+      <td>35.7</td>
+      <td>3.6</td>
+      <td>5.8</td>
     </tr>
     <tr>
       <td>19:00</td>
-      <td>17.3</td>
+      <td>18.7</td>
       <td>2.1</td>
-      <td>4.8</td>
+      <td>5.7</td>
     </tr>
     <tr>
       <td>20:00</td>
-      <td>29.0</td>
-      <td>1.9</td>
-      <td>1.1</td>
+      <td>26.6</td>
+      <td>2.4</td>
+      <td>1.2</td>
     </tr>
     <tr>
       <td>23:00</td>
       <td>1.9</td>
-      <td>0.9</td>
-      <td>2.1</td>
+      <td>0.8</td>
+      <td>2.6</td>
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-storna"><h2>Uvoľnené miesta (storná)</h2><p class="muted">Miesta, ktoré boli v jednom meraní obsadené a v ďalšom sa znovu objavili ako voľné. Celkom zaznamenaných: 270 miest v 200 prípadoch. Nižšie je posledných 25.</p><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-storna"><h2>Uvoľnené miesta (storná)</h2><p class="muted">Miesta, ktoré boli v jednom meraní obsadené a v ďalšom sa znovu objavili ako voľné. Celkom zaznamenaných: 324 miest v 243 prípadoch. Nižšie je posledných 25.</p><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Čas</th>
@@ -596,158 +598,158 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
   </thead>
   <tbody>
     <tr>
-      <td>26.10. 20:09</td>
-      <td>Ex 653</td>
+      <td>28.10. 07:13</td>
+      <td>Ex 609</td>
       <td>Vůz 4</td>
-      <td>52</td>
+      <td>108</td>
     </tr>
     <tr>
-      <td>26.10. 19:16</td>
-      <td>Ex 651</td>
-      <td>Vůz 3</td>
-      <td>64</td>
-    </tr>
-    <tr>
-      <td>26.10. 17:07</td>
-      <td>Ex 629</td>
-      <td>Vůz 3</td>
-      <td>48</td>
-    </tr>
-    <tr>
-      <td>26.10. 16:02</td>
-      <td>Ex 627</td>
-      <td>Vůz 8</td>
-      <td>94</td>
-    </tr>
-    <tr>
-      <td>26.10. 15:41</td>
-      <td>Ex 627</td>
-      <td>Vůz 7</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <td>26.10. 15:30</td>
-      <td>Ex 627</td>
-      <td>Vůz 3</td>
-      <td>106</td>
-    </tr>
-    <tr>
-      <td>26.10. 15:30</td>
-      <td>Ex 627</td>
-      <td>Vůz 7</td>
-      <td>46</td>
-    </tr>
-    <tr>
-      <td>26.10. 14:02</td>
-      <td>Ex 623</td>
-      <td>Vůz 3</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <td>26.10. 13:51</td>
-      <td>Ex 623</td>
+      <td>28.10. 06:59</td>
+      <td>Ex 609</td>
       <td>Vůz 4</td>
-      <td>35</td>
+      <td>95</td>
     </tr>
     <tr>
-      <td>26.10. 13:51</td>
-      <td>Ex 623</td>
+      <td>28.10. 06:43</td>
+      <td>Ex 609</td>
+      <td>Vůz 4</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <td>28.10. 05:53</td>
+      <td>Ex 607</td>
       <td>Vůz 5</td>
-      <td>51, 52, 54, 56</td>
+      <td>34, 35</td>
     </tr>
     <tr>
-      <td>26.10. 13:40</td>
-      <td>Ex 623</td>
-      <td>Vůz 6</td>
-      <td>104, 105, 106</td>
-    </tr>
-    <tr>
-      <td>26.10. 13:30</td>
-      <td>Ex 623</td>
-      <td>Vůz 4</td>
-      <td>75</td>
-    </tr>
-    <tr>
-      <td>26.10. 13:08</td>
-      <td>Ex 621</td>
+      <td>27.10. 20:06</td>
+      <td>Ex 653</td>
       <td>Vůz 3</td>
-      <td>55</td>
+      <td>86</td>
     </tr>
     <tr>
-      <td>26.10. 13:08</td>
-      <td>Ex 621</td>
-      <td>Vůz 4</td>
+      <td>27.10. 19:33</td>
+      <td>Ex 653</td>
+      <td>Vůz 6</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <td>27.10. 19:33</td>
+      <td>Ex 653</td>
+      <td>Vůz 3</td>
       <td>23</td>
     </tr>
     <tr>
-      <td>26.10. 12:57</td>
-      <td>Ex 621</td>
-      <td>Vůz 5</td>
-      <td>45</td>
+      <td>27.10. 18:30</td>
+      <td>Ex 651</td>
+      <td>Vůz 9</td>
+      <td>23</td>
     </tr>
     <tr>
-      <td>26.10. 11:42</td>
-      <td>Ex 619</td>
+      <td>27.10. 18:23</td>
+      <td>Ex 651</td>
+      <td>Vůz 9</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:57</td>
+      <td>Ex 631</td>
       <td>Vůz 4</td>
-      <td>84, 94</td>
+      <td>61, 63</td>
     </tr>
     <tr>
-      <td>26.10. 10:38</td>
-      <td>Ex 617</td>
-      <td>Vůz 5</td>
-      <td>34</td>
+      <td>27.10. 17:53</td>
+      <td>Ex 631</td>
+      <td>Vůz 9</td>
+      <td>68</td>
     </tr>
     <tr>
-      <td>26.10. 10:38</td>
-      <td>Ex 617</td>
-      <td>Vůz 4</td>
-      <td>51, 53</td>
-    </tr>
-    <tr>
-      <td>26.10. 09:54</td>
-      <td>Ex 615</td>
-      <td>Vůz 3</td>
-      <td>87</td>
-    </tr>
-    <tr>
-      <td>26.10. 09:54</td>
-      <td>Ex 615</td>
-      <td>Vůz 6</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <td>26.10. 09:54</td>
-      <td>Ex 615</td>
-      <td>Vůz 4</td>
-      <td>51, 53, 93</td>
-    </tr>
-    <tr>
-      <td>26.10. 09:01</td>
-      <td>Ex 613</td>
+      <td>27.10. 17:53</td>
+      <td>Ex 631</td>
       <td>Vůz 8</td>
+      <td>75, 76</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:43</td>
+      <td>Ex 631</td>
+      <td>Vůz 3</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:43</td>
+      <td>Ex 631</td>
+      <td>Vůz 8</td>
+      <td>51, 52</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:43</td>
+      <td>Ex 631</td>
+      <td>Vůz 4</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:36</td>
+      <td>Ex 631</td>
+      <td>Vůz 3</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:33</td>
+      <td>Ex 631</td>
+      <td>Vůz 4</td>
       <td>61</td>
     </tr>
     <tr>
-      <td>26.10. 08:50</td>
-      <td>Ex 613</td>
+      <td>27.10. 17:33</td>
+      <td>Ex 631</td>
       <td>Vůz 7</td>
-      <td>45</td>
+      <td>21, 22</td>
     </tr>
     <tr>
-      <td>26.10. 08:50</td>
-      <td>Ex 613</td>
-      <td>Vůz 4</td>
-      <td>15</td>
+      <td>27.10. 17:15</td>
+      <td>Ex 629</td>
+      <td>Vůz 6</td>
+      <td>85</td>
     </tr>
     <tr>
-      <td>26.10. 08:50</td>
-      <td>Ex 613</td>
-      <td>Vůz 3</td>
-      <td>45, 55</td>
+      <td>27.10. 17:13</td>
+      <td>Ex 629</td>
+      <td>Vůz 9</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:13</td>
+      <td>Ex 629</td>
+      <td>Vůz 7</td>
+      <td>93, 94</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:04</td>
+      <td>Ex 629</td>
+      <td>Vůz 7</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>27.10. 17:03</td>
+      <td>Ex 629</td>
+      <td>Vůz 7</td>
+      <td>15, 16</td>
+    </tr>
+    <tr>
+      <td>27.10. 16:53</td>
+      <td>Ex 629</td>
+      <td>Vůz 9</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>27.10. 16:13</td>
+      <td>Ex 627</td>
+      <td>Vůz 9</td>
+      <td>16</td>
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-vypredane"><h2>Vypredané vlaky</h2><p class="muted">Vlak sa považuje za vypredaný, keď obsadenosť dosiahne 98 %. Vypredaných vlakov v dátach: 1 z 91.</p><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-vypredane"><h2>Vypredané vlaky</h2><p class="muted">Vlak sa považuje za vypredaný, keď obsadenosť dosiahne 98 %. Vypredaných vlakov v dátach: 1 z 104.</p><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Deň</th>
@@ -759,9 +761,37 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
   </thead>
   <tbody>
     <tr>
+      <td>28.10.2026</td>
+      <td>Ex 603</td>
+      <td>20 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>28.10.2026</td>
+      <td>Ex 607</td>
+      <td>25 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>28.10.2026</td>
+      <td>Ex 609</td>
+      <td>34 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>28.10.2026</td>
+      <td>Ex 611</td>
+      <td>45 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
       <td>27.10.2026</td>
       <td>Ex 603</td>
-      <td>11 %</td>
+      <td>18 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -769,6 +799,69 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
       <td>27.10.2026</td>
       <td>Ex 615</td>
       <td>20 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 617</td>
+      <td>28 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 619</td>
+      <td>34 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 621</td>
+      <td>42 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 623</td>
+      <td>29 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 627</td>
+      <td>92 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 629</td>
+      <td>60 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 631</td>
+      <td>41 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 651</td>
+      <td>12 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>27.10.2026</td>
+      <td>Ex 653</td>
+      <td>5 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -782,7 +875,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>26.10.2026</td>
       <td>Ex 609</td>
-      <td>25 %</td>
+      <td>26 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -810,28 +903,28 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>26.10.2026</td>
       <td>Ex 617</td>
-      <td>29 %</td>
+      <td>32 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>26.10.2026</td>
       <td>Ex 619</td>
-      <td>17 %</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>26.10.2026</td>
-      <td>Ex 621</td>
       <td>21 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>26.10.2026</td>
+      <td>Ex 621</td>
+      <td>23 %</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>26.10.2026</td>
       <td>Ex 623</td>
-      <td>57 %</td>
+      <td>58 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -880,21 +973,21 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>25.10.2026</td>
       <td>Ex 607</td>
-      <td>19 %</td>
+      <td>21 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>25.10.2026</td>
       <td>Ex 609</td>
-      <td>15 %</td>
+      <td>16 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>25.10.2026</td>
       <td>Ex 611</td>
-      <td>20 %</td>
+      <td>21 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -915,28 +1008,28 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>25.10.2026</td>
       <td>Ex 617</td>
-      <td>57 %</td>
+      <td>59 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>25.10.2026</td>
       <td>Ex 619</td>
-      <td>56 %</td>
+      <td>58 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>25.10.2026</td>
       <td>Ex 621</td>
-      <td>81 %</td>
+      <td>82 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>25.10.2026</td>
       <td>Ex 623</td>
-      <td>82 %</td>
+      <td>83 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -985,14 +1078,14 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>24.10.2026</td>
       <td>Ex 607</td>
-      <td>49 %</td>
+      <td>50 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>24.10.2026</td>
       <td>Ex 609</td>
-      <td>60 %</td>
+      <td>61 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1020,28 +1113,28 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>24.10.2026</td>
       <td>Ex 617</td>
-      <td>44 %</td>
+      <td>47 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>24.10.2026</td>
       <td>Ex 619</td>
-      <td>44 %</td>
+      <td>47 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>24.10.2026</td>
       <td>Ex 621</td>
-      <td>39 %</td>
+      <td>40 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>24.10.2026</td>
       <td>Ex 623</td>
-      <td>30 %</td>
+      <td>31 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1062,7 +1155,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>24.10.2026</td>
       <td>Ex 631</td>
-      <td>34 %</td>
+      <td>35 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1174,7 +1267,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>22.10.2026</td>
       <td>Ex 607</td>
-      <td>26 %</td>
+      <td>28 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1209,14 +1302,14 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>22.10.2026</td>
       <td>Ex 617</td>
-      <td>72 %</td>
+      <td>74 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>22.10.2026</td>
       <td>Ex 619</td>
-      <td>79 %</td>
+      <td>80 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1230,7 +1323,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>22.10.2026</td>
       <td>Ex 623</td>
-      <td>93 %</td>
+      <td>94 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1251,14 +1344,14 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>21.10.2026</td>
       <td>Ex 607</td>
-      <td>33 %</td>
+      <td>34 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>21.10.2026</td>
       <td>Ex 609</td>
-      <td>31 %</td>
+      <td>32 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1286,28 +1379,28 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>21.10.2026</td>
       <td>Ex 617</td>
-      <td>23 %</td>
+      <td>26 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>21.10.2026</td>
       <td>Ex 619</td>
-      <td>36 %</td>
+      <td>40 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>21.10.2026</td>
       <td>Ex 621</td>
-      <td>47 %</td>
+      <td>48 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>21.10.2026</td>
       <td>Ex 623</td>
-      <td>56 %</td>
+      <td>57 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1356,7 +1449,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>20.10.2026</td>
       <td>Ex 623</td>
-      <td>31 %</td>
+      <td>32 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1377,7 +1470,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>20.10.2026</td>
       <td>Ex 631</td>
-      <td>25 %</td>
+      <td>26 %</td>
       <td>-</td>
       <td>-</td>
     </tr>
@@ -1397,7 +1490,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-dni-v-tyzdni"><h2>Porovnanie dní v týždni</h2><p class="muted">Priemerná obsadenosť každého vlaku pri poslednom meraní pred odchodom, rozdelená podľa dňa v týždni.</p><a href="statistiky/dni_v_tyzdni.png"><img src="statistiky/dni_v_tyzdni.png" loading="lazy" alt="Porovnanie dní v týždni"></a><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-dni-v-tyzdni"><h2>Porovnanie dní v týždni</h2><p class="muted">Priemerná obsadenosť každého vlaku pri poslednom meraní pred odchodom, rozdelená podľa dňa v týždni.</p><a href="statistiky/ba-vr/dni_v_tyzdni.png"><img src="statistiky/ba-vr/dni_v_tyzdni.png" loading="lazy" alt="Porovnanie dní v týždni"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Vlak</th>
@@ -1413,9 +1506,9 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
   <tbody>
     <tr>
       <td>Ex 603</td>
-      <td>11</td>
-      <td>14</td>
-      <td>18</td>
+      <td>12</td>
+      <td>17</td>
+      <td>19</td>
       <td>21</td>
       <td>26</td>
       <td>15</td>
@@ -1425,31 +1518,31 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
       <td>Ex 607</td>
       <td>&lt;NA&gt;</td>
       <td>&lt;NA&gt;</td>
-      <td>33</td>
-      <td>26</td>
+      <td>30</td>
+      <td>28</td>
       <td>&lt;NA&gt;</td>
-      <td>49</td>
-      <td>19</td>
+      <td>50</td>
+      <td>21</td>
     </tr>
     <tr>
       <td>Ex 609</td>
-      <td>25</td>
+      <td>26</td>
       <td>&lt;NA&gt;</td>
-      <td>31</td>
+      <td>33</td>
       <td>42</td>
       <td>&lt;NA&gt;</td>
-      <td>60</td>
-      <td>15</td>
+      <td>61</td>
+      <td>16</td>
     </tr>
     <tr>
       <td>Ex 611</td>
       <td>40</td>
       <td>&lt;NA&gt;</td>
-      <td>26</td>
+      <td>36</td>
       <td>46</td>
       <td>87</td>
       <td>63</td>
-      <td>20</td>
+      <td>21</td>
     </tr>
     <tr>
       <td>Ex 613</td>
@@ -1473,48 +1566,48 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
     <tr>
       <td>Ex 617</td>
-      <td>29</td>
-      <td>&lt;NA&gt;</td>
-      <td>23</td>
-      <td>72</td>
+      <td>32</td>
+      <td>28</td>
+      <td>26</td>
+      <td>74</td>
       <td>96</td>
-      <td>44</td>
-      <td>57</td>
+      <td>47</td>
+      <td>59</td>
     </tr>
     <tr>
       <td>Ex 619</td>
-      <td>17</td>
-      <td>&lt;NA&gt;</td>
-      <td>36</td>
-      <td>79</td>
+      <td>21</td>
+      <td>34</td>
+      <td>40</td>
+      <td>80</td>
       <td>95</td>
-      <td>44</td>
-      <td>56</td>
+      <td>47</td>
+      <td>58</td>
     </tr>
     <tr>
       <td>Ex 621</td>
-      <td>21</td>
-      <td>&lt;NA&gt;</td>
-      <td>47</td>
+      <td>23</td>
+      <td>42</td>
+      <td>48</td>
       <td>95</td>
       <td>98</td>
-      <td>39</td>
-      <td>81</td>
+      <td>40</td>
+      <td>82</td>
     </tr>
     <tr>
       <td>Ex 623</td>
-      <td>57</td>
+      <td>58</td>
       <td>31</td>
-      <td>56</td>
+      <td>57</td>
       <td>93</td>
       <td>96</td>
-      <td>30</td>
-      <td>82</td>
+      <td>31</td>
+      <td>83</td>
     </tr>
     <tr>
       <td>Ex 627</td>
       <td>43</td>
-      <td>57</td>
+      <td>75</td>
       <td>79</td>
       <td>98</td>
       <td>96</td>
@@ -1524,7 +1617,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>Ex 629</td>
       <td>28</td>
-      <td>38</td>
+      <td>49</td>
       <td>65</td>
       <td>&lt;NA&gt;</td>
       <td>95</td>
@@ -1534,17 +1627,17 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>Ex 631</td>
       <td>17</td>
-      <td>25</td>
+      <td>33</td>
       <td>34</td>
       <td>&lt;NA&gt;</td>
       <td>90</td>
-      <td>34</td>
+      <td>35</td>
       <td>42</td>
     </tr>
     <tr>
       <td>Ex 651</td>
       <td>9</td>
-      <td>9</td>
+      <td>11</td>
       <td>13</td>
       <td>&lt;NA&gt;</td>
       <td>20</td>
@@ -1554,7 +1647,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     <tr>
       <td>Ex 653</td>
       <td>9</td>
-      <td>11</td>
+      <td>8</td>
       <td>7</td>
       <td>&lt;NA&gt;</td>
       <td>13</td>
@@ -1563,7 +1656,7 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
   </tbody>
 </table></div></section>
-<section class="card" id="s-spolahlivost"><h2>Spoľahlivosť zberu</h2><p class="muted">Podiel meraní, pri ktorých zberový skript nenašiel žiadne vozne (napríklad v noci, keď sa nedá vybrať miesto). Celkom 184 z 748 meraní.</p><a href="statistiky/spolahlivost.png"><img src="statistiky/spolahlivost.png" loading="lazy" alt="Spoľahlivosť zberu"></a><div class="tablewrap"><table class="dataframe stat">
+<section class="card" id="s-ba-vr-spolahlivost"><h2>Spoľahlivosť zberu</h2><p class="muted">Podiel meraní, pri ktorých zberový skript nenašiel žiadne vozne (napríklad v noci, keď sa nedá vybrať miesto). Celkom 247 z 987 meraní.</p><a href="statistiky/ba-vr/spolahlivost.png"><img src="statistiky/ba-vr/spolahlivost.png" loading="lazy" alt="Spoľahlivosť zberu"></a><div class="tablewrap"><table class="dataframe stat">
   <thead>
     <tr style="text-align: right;">
       <th>Hodina</th>
@@ -1575,51 +1668,51 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
   <tbody>
     <tr>
       <td>00:00</td>
-      <td>29</td>
+      <td>40</td>
       <td>2</td>
-      <td>7</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>01:00</td>
-      <td>30</td>
+      <td>42</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <td>02:00</td>
-      <td>34</td>
+      <td>45</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <td>03:00</td>
-      <td>27</td>
+      <td>39</td>
       <td>1</td>
-      <td>4</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>04:00</td>
-      <td>28</td>
-      <td>20</td>
-      <td>71</td>
+      <td>39</td>
+      <td>27</td>
+      <td>69</td>
     </tr>
     <tr>
       <td>05:00</td>
-      <td>21</td>
-      <td>6</td>
-      <td>29</td>
+      <td>33</td>
+      <td>10</td>
+      <td>30</td>
     </tr>
     <tr>
       <td>06:00</td>
-      <td>22</td>
+      <td>34</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <td>07:00</td>
-      <td>31</td>
+      <td>41</td>
       <td>4</td>
-      <td>13</td>
+      <td>10</td>
     </tr>
     <tr>
       <td>08:00</td>
@@ -1635,101 +1728,111 @@ h2.oddiel{margin:36px 0 0;font-size:1.4rem}
     </tr>
     <tr>
       <td>10:00</td>
-      <td>33</td>
-      <td>2</td>
-      <td>6</td>
+      <td>40</td>
+      <td>3</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>11:00</td>
-      <td>28</td>
-      <td>1</td>
-      <td>4</td>
+      <td>39</td>
+      <td>2</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>12:00</td>
-      <td>34</td>
-      <td>3</td>
-      <td>9</td>
+      <td>46</td>
+      <td>6</td>
+      <td>13</td>
     </tr>
     <tr>
       <td>13:00</td>
-      <td>35</td>
-      <td>4</td>
-      <td>11</td>
+      <td>47</td>
+      <td>9</td>
+      <td>19</td>
     </tr>
     <tr>
       <td>14:00</td>
-      <td>39</td>
-      <td>27</td>
-      <td>69</td>
+      <td>50</td>
+      <td>36</td>
+      <td>72</td>
     </tr>
     <tr>
       <td>15:00</td>
-      <td>39</td>
-      <td>13</td>
-      <td>33</td>
+      <td>50</td>
+      <td>16</td>
+      <td>32</td>
     </tr>
     <tr>
       <td>16:00</td>
-      <td>35</td>
+      <td>46</td>
       <td>3</td>
-      <td>9</td>
+      <td>7</td>
     </tr>
     <tr>
       <td>17:00</td>
-      <td>34</td>
+      <td>46</td>
       <td>6</td>
-      <td>18</td>
+      <td>13</td>
     </tr>
     <tr>
       <td>18:00</td>
-      <td>33</td>
+      <td>44</td>
       <td>1</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>19:00</td>
-      <td>35</td>
-      <td>2</td>
+      <td>47</td>
+      <td>3</td>
       <td>6</td>
     </tr>
     <tr>
       <td>20:00</td>
+      <td>43</td>
       <td>32</td>
-      <td>24</td>
-      <td>75</td>
+      <td>74</td>
     </tr>
     <tr>
       <td>21:00</td>
-      <td>31</td>
-      <td>31</td>
+      <td>43</td>
+      <td>43</td>
       <td>100</td>
     </tr>
     <tr>
       <td>22:00</td>
-      <td>29</td>
-      <td>29</td>
+      <td>38</td>
+      <td>38</td>
       <td>100</td>
     </tr>
     <tr>
       <td>23:00</td>
-      <td>20</td>
+      <td>26</td>
       <td>2</td>
-      <td>10</td>
+      <td>8</td>
     </tr>
   </tbody>
-</table></div></section>
+</table></div></section></details>
 
 <h2 class="oddiel" id="historia">História grafov po dňoch</h2>
-<section class="card" id="d2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_2026-10-28.png"><img src="grafy/graf_vozne_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-27"><h2>utorok 27.10.2026</h2><a href="grafy/graf_vozne_2026-10-27.png"><img src="grafy/graf_vozne_2026-10-27.png" loading="lazy" alt="Voľné miesta po vozňoch - utorok 27.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-27.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-26"><h2>pondelok 26.10.2026</h2><a href="grafy/graf_vozne_2026-10-26.png"><img src="grafy/graf_vozne_2026-10-26.png" loading="lazy" alt="Voľné miesta po vozňoch - pondelok 26.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-26.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-25"><h2>nedeľa 25.10.2026</h2><a href="grafy/graf_vozne_2026-10-25.png"><img src="grafy/graf_vozne_2026-10-25.png" loading="lazy" alt="Voľné miesta po vozňoch - nedeľa 25.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-25.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-24"><h2>sobota 24.10.2026</h2><a href="grafy/graf_vozne_2026-10-24.png"><img src="grafy/graf_vozne_2026-10-24.png" loading="lazy" alt="Voľné miesta po vozňoch - sobota 24.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-24.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-23"><h2>piatok 23.10.2026</h2><a href="grafy/graf_vozne_2026-10-23.png"><img src="grafy/graf_vozne_2026-10-23.png" loading="lazy" alt="Voľné miesta po vozňoch - piatok 23.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-23.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-22"><h2>štvrtok 22.10.2026</h2><a href="grafy/graf_vozne_2026-10-22.png"><img src="grafy/graf_vozne_2026-10-22.png" loading="lazy" alt="Voľné miesta po vozňoch - štvrtok 22.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-22.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-21"><h2>streda 21.10.2026</h2><a href="grafy/graf_vozne_2026-10-21.png"><img src="grafy/graf_vozne_2026-10-21.png" loading="lazy" alt="Voľné miesta po vozňoch - streda 21.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-21.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
-<section class="card" id="d2026-10-20"><h2>utorok 20.10.2026</h2><a href="grafy/graf_vozne_2026-10-20.png"><img src="grafy/graf_vozne_2026-10-20.png" loading="lazy" alt="Voľné miesta po vozňoch - utorok 20.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_2026-10-20.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<details class="trasa" open><summary>Bratislava → Vrútky</summary><section class="card" id="dBA-VR-2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-28.png"><img src="grafy/graf_vozne_BA-VR_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-27"><h2>utorok 27.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-27.png"><img src="grafy/graf_vozne_BA-VR_2026-10-27.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - utorok 27.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-27.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-26"><h2>pondelok 26.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-26.png"><img src="grafy/graf_vozne_BA-VR_2026-10-26.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - pondelok 26.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-26.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-25"><h2>nedeľa 25.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-25.png"><img src="grafy/graf_vozne_BA-VR_2026-10-25.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - nedeľa 25.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-25.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-24"><h2>sobota 24.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-24.png"><img src="grafy/graf_vozne_BA-VR_2026-10-24.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - sobota 24.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-24.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-23"><h2>piatok 23.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-23.png"><img src="grafy/graf_vozne_BA-VR_2026-10-23.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - piatok 23.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-23.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-22"><h2>štvrtok 22.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-22.png"><img src="grafy/graf_vozne_BA-VR_2026-10-22.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - štvrtok 22.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-22.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-21"><h2>streda 21.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-21.png"><img src="grafy/graf_vozne_BA-VR_2026-10-21.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - streda 21.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-21.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
+<section class="card" id="dBA-VR-2026-10-20"><h2>utorok 20.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-20.png"><img src="grafy/graf_vozne_BA-VR_2026-10-20.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - utorok 20.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-20.png">Otvoriť graf vo väčšom rozlíšení</a></p></section></details>
 </main>
+<script>
+// odkaz na deň alebo trasu otvorí zloženú sekciu, v ktorej sa nachádza
+document.addEventListener("click", function (e) {
+  var a = e.target.closest('a[href^="#"]');
+  if (!a) return;
+  var t = document.getElementById(a.getAttribute("href").slice(1));
+  var d = t && t.closest("details");
+  if (d) d.open = true;
+});
+</script>
 </body>
 </html>
