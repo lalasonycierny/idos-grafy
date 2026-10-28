@@ -37,7 +37,7 @@ details.trasa>summary{cursor:pointer;font-weight:600;font-size:1.1rem;padding:8p
 <body>
 <main>
 <h1>Voľné miesta vo vlakoch</h1>
-<p class="muted">Posledné meranie: 28.10.2026 07:57 ·
+<p class="muted">Posledné meranie: 28.10.2026 09:00 ·
 <a href="data/obsadenost_data.csv">stiahnuť dáta (CSV)</a></p>
 <nav class="nav"><a href="#suhrn">Súhrn</a><a href="#statistiky">Štatistiky</a><a href="#historia">História grafov</a></nav>
 
@@ -46,9 +46,10 @@ details.trasa>summary{cursor:pointer;font-weight:600;font-size:1.1rem;padding:8p
 <div class="tablewrap"><table>
 <thead><tr><th>Deň</th><th>Trasa</th><th>Meraní</th><th>Vlakov</th><th>Čas meraní</th></tr></thead>
 <tbody>
-<tr><td><a href="#dBA-VR-2026-10-28">streda 28.10.2026</a></td><td>Bratislava → Vrútky</td><td>81</td><td>4</td><td>00:03-07:54</td></tr>
-<tr><td><a href="#dBA-KE-2026-10-28">streda 28.10.2026</a></td><td>Bratislava → Košice</td><td>3</td><td>1</td><td>07:46-07:57</td></tr>
-<tr><td><a href="#dKE-BA-2026-10-28">streda 28.10.2026</a></td><td>Košice → Bratislava</td><td>3</td><td>2</td><td>07:47-07:57</td></tr>
+<tr><td><a href="#dBA-VR-2026-10-28">streda 28.10.2026</a></td><td>Bratislava → Vrútky</td><td>95</td><td>5</td><td>00:03-08:58</td></tr>
+<tr><td><a href="#dVR-BA-2026-10-28">streda 28.10.2026</a></td><td>Vrútky → Bratislava</td><td>13</td><td>1</td><td>08:02-08:59</td></tr>
+<tr><td><a href="#dBA-KE-2026-10-28">streda 28.10.2026</a></td><td>Bratislava → Košice</td><td>17</td><td>2</td><td>07:46-09:00</td></tr>
+<tr><td><a href="#dKE-BA-2026-10-28">streda 28.10.2026</a></td><td>Košice → Bratislava</td><td>13</td><td>3</td><td>07:47-08:54</td></tr>
 <tr><td><a href="#dBA-VR-2026-10-27">utorok 27.10.2026</a></td><td>Bratislava → Vrútky</td><td>99</td><td>11</td><td>00:01-23:59</td></tr>
 <tr><td><a href="#dBA-VR-2026-10-26">pondelok 26.10.2026</a></td><td>Bratislava → Vrútky</td><td>88</td><td>14</td><td>00:06-23:50</td></tr>
 <tr><td><a href="#dBA-VR-2026-10-25">nedeľa 25.10.2026</a></td><td>Bratislava → Vrútky</td><td>101</td><td>15</td><td>00:01-23:56</td></tr>
@@ -1814,6 +1815,24 @@ details.trasa>summary{cursor:pointer;font-weight:600;font-size:1.1rem;padding:8p
     </tr>
   </tbody>
 </table></div></section></details>
+<details class="trasa"><summary>Vrútky → Bratislava</summary><section class="card" id="s-vr-ba-spolahlivost"><h2>Spoľahlivosť zberu</h2><p class="muted">Podiel meraní, pri ktorých zberový skript nenašiel žiadne vozne (napríklad v noci, keď sa nedá vybrať miesto). Celkom 1 z 1 meraní.</p><a href="statistiky/vr-ba/spolahlivost.png"><img src="statistiky/vr-ba/spolahlivost.png" loading="lazy" alt="Spoľahlivosť zberu"></a><div class="tablewrap"><table class="dataframe stat">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Hodina</th>
+      <th>Meraní</th>
+      <th>Bez vozňov</th>
+      <th>Podiel (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>07:00</td>
+      <td>1</td>
+      <td>1</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table></div></section></details>
 
 <h2 class="oddiel" id="historia">História grafov po dňoch</h2>
 <details class="trasa" open><summary>Bratislava → Vrútky</summary><section class="card" id="dBA-VR-2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-28.png"><img src="grafy/graf_vozne_BA-VR_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
@@ -1825,6 +1844,7 @@ details.trasa>summary{cursor:pointer;font-weight:600;font-size:1.1rem;padding:8p
 <section class="card" id="dBA-VR-2026-10-22"><h2>štvrtok 22.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-22.png"><img src="grafy/graf_vozne_BA-VR_2026-10-22.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - štvrtok 22.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-22.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
 <section class="card" id="dBA-VR-2026-10-21"><h2>streda 21.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-21.png"><img src="grafy/graf_vozne_BA-VR_2026-10-21.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - streda 21.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-21.png">Otvoriť graf vo väčšom rozlíšení</a></p></section>
 <section class="card" id="dBA-VR-2026-10-20"><h2>utorok 20.10.2026</h2><a href="grafy/graf_vozne_BA-VR_2026-10-20.png"><img src="grafy/graf_vozne_BA-VR_2026-10-20.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Vrútky - utorok 20.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-VR_2026-10-20.png">Otvoriť graf vo väčšom rozlíšení</a></p></section></details>
+<details class="trasa"><summary>Vrútky → Bratislava</summary><section class="card" id="dVR-BA-2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_VR-BA_2026-10-28.png"><img src="grafy/graf_vozne_VR-BA_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - Vrútky → Bratislava - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_VR-BA_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section></details>
 <details class="trasa"><summary>Bratislava → Košice</summary><section class="card" id="dBA-KE-2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_BA-KE_2026-10-28.png"><img src="grafy/graf_vozne_BA-KE_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - Bratislava → Košice - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_BA-KE_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section></details>
 <details class="trasa"><summary>Košice → Bratislava</summary><section class="card" id="dKE-BA-2026-10-28"><h2>streda 28.10.2026</h2><a href="grafy/graf_vozne_KE-BA_2026-10-28.png"><img src="grafy/graf_vozne_KE-BA_2026-10-28.png" loading="lazy" alt="Voľné miesta po vozňoch - Košice → Bratislava - streda 28.10.2026"></a><p class="muted"><a href="grafy/graf_vozne_KE-BA_2026-10-28.png">Otvoriť graf vo väčšom rozlíšení</a></p></section></details>
 </main>
