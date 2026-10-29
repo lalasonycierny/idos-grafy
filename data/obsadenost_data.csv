@@ -8853,127 +8853,222 @@
 2026-10-29 09:02:56,BA-KE,Bratislava → Košice,Ex 613,Vůz 5,0,2026-10-29,Ex 613 - odchod ≈ 09:02-09:22
 2026-10-29 09:02:56,BA-KE,Bratislava → Košice,Ex 613,Vůz 8,2,2026-10-29,Ex 613 - odchod ≈ 09:02-09:22
 2026-10-29 09:02:56,BA-KE,Bratislava → Košice,Ex 613,Vůz 9,3,2026-10-29,Ex 613 - odchod ≈ 09:02-09:22
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,11,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,12,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,14,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,41,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,62,2026-10-29,R10 (Ex 612) - odchod po 09:43
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,11,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,12,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,14,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,41,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:03:43,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,62,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
 2026-10-29 09:11:33,BA-VR,Bratislava → Vrútky,Ex 613,Vůz 3,3,2026-10-29,Ex 613 - odchod ≈ 09:11-09:21
 2026-10-29 09:11:33,BA-VR,Bratislava → Vrútky,Ex 613,Vůz 5,0,2026-10-29,Ex 613 - odchod ≈ 09:11-09:21
 2026-10-29 09:11:33,BA-VR,Bratislava → Vrútky,Ex 613,Vůz 8,2,2026-10-29,Ex 613 - odchod ≈ 09:11-09:21
 2026-10-29 09:11:33,BA-VR,Bratislava → Vrútky,Ex 613,Vůz 9,3,2026-10-29,Ex 613 - odchod ≈ 09:11-09:21
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,23,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,40,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,11,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,41,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,60,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,21,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,39,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,11,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,11,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,40,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,60,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,20,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,38,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,10,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,39,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,47,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,58,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,38,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,36,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,40,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,9,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,11,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,29,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,38,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,47,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,56,2026-10-29,R10 (Ex 612) - odchod po 09:43
-2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:51
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,15,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,37,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,36,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,39,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod po 09:52
-2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 09:52
-2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 09:52
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,23,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,40,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,11,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,41,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:13:18,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,60,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:21:36,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,21,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,39,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:25,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:22:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,11,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,11,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,40,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,48,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:23:47,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,60,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:31:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,20,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,38,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,37,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,41,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:23,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:32:59,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,10,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,13,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,33,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,39,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,47,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:33:46,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,58,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:41:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,38,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,36,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,40,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:21,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:42:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 1,0,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 3,10,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 4,9,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 5,11,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 6,29,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 7,38,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 8,47,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:43:37,KE-BA,Košice → Bratislava,R10 (Ex 612),Vůz 9,56,2026-10-29,R10 (Ex 612) - odchod ≈ 09:43-10:13
+2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:51:38,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,15,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,37,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,36,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,39,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:24,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 09:52:56,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 1,0,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 3,15,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 4,18,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 5,19,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 6,37,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 7,36,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 8,38,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:06,VR-BA,Vrútky → Bratislava,R10 (Ex 606),Vůz 9,28,2026-10-29,R10 (Ex 606) - odchod ≈ 10:02-10:12
+2026-10-29 10:02:43,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:02:43,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:02:43,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:02:43,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:02:43,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:11:35,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 10:11:35,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 10:11:35,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 10:11:35,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 10:11:35,BA-VR,Bratislava → Vrútky,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:11
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 1,0,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 3,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 4,16,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 5,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 6,23,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 7,32,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 8,34,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:16,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 9,43,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:12:51,BA-KE,Bratislava → Košice,Ex 615,Vůz 3,3,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:12:51,BA-KE,Bratislava → Košice,Ex 615,Vůz 4,2,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:12:51,BA-KE,Bratislava → Košice,Ex 615,Vůz 5,0,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:12:51,BA-KE,Bratislava → Košice,Ex 615,Vůz 8,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:12:51,BA-KE,Bratislava → Košice,Ex 615,Vůz 9,6,2026-10-29,Ex 615 - odchod po 10:12
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 1,0,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 3,18,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 4,22,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 5,12,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 6,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 7,42,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 8,46,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:13:34,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 9,63,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 1,0,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 3,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 4,16,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 5,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 6,23,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 7,32,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 8,34,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:22:07,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 9,42,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 1,0,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 3,18,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 4,21,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 5,12,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 6,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 7,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 8,46,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:23:12,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 9,63,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 1,0,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 3,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 4,16,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 5,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 6,23,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 7,28,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 8,34,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:32:06,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 9,42,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 1,0,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 3,16,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 4,19,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 5,11,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 6,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 7,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 8,46,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:33:15,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 9,60,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 1,0,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 3,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 4,16,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 5,15,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 6,23,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 7,25,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 8,34,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:42:08,VR-BA,Vrútky → Bratislava,R10 (Ex 608),Vůz 9,42,2026-10-29,R10 (Ex 608) - odchod po 10:42
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 1,0,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 3,16,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 4,19,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 5,11,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 6,38,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 7,40,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 8,45,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:43:08,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 9,60,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 1,0,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 3,15,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 4,19,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 5,11,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 6,37,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 7,39,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 8,43,2026-10-29,R10 (Ex 614) - odchod po 10:52
+2026-10-29 10:52:42,KE-BA,Košice → Bratislava,R10 (Ex 614),Vůz 9,60,2026-10-29,R10 (Ex 614) - odchod po 10:52
